@@ -9,9 +9,18 @@ ___
 ```
  docker-compose up -d --build
  ```
+ - Add directory
+ ```
+mkdir docker/dbdata
+mkdir docker/dbdata/data
+ ```
  - Install php dependencies
  ```
     composer install
+ ```
+ - generate key
+ ```
+php artisan key:generate
  ```
  - install js dependencies
  ```
