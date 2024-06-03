@@ -1,4 +1,6 @@
+# <p align="center" style="font-size: 40px"> VM TASK </p>
 
+___
 ## docker-compose.yml
 - webserver,
 - app php:8.2 port 81
@@ -35,7 +37,7 @@ php artisan key:generate
 php artisan migrate:fresh --seed
 ```
 ___
-<p align="center" style="font-size:24px"> CREATED VIEWS </p>
+# <p align="center" style="font-size:24px"> CREATED VIEWS </p>
 
 ## Nav for web application
 
