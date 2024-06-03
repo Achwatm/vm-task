@@ -36,9 +36,9 @@ class UserSeeder extends Seeder
             ->create();
 
         
-        $countThisWeekBirthsday = rand(4,10);
+        $countThisWeekBirthday = rand(4,10);
         $users = [];
-        for($i=0 ; $i<$countThisWeekBirthsday; $i++){
+        for($i=0 ; $i<$countThisWeekBirthday; $i++){
             $users[] = [
                 'name' => fake()->name(),
                 'email' => fake()->unique()->safeEmail(),

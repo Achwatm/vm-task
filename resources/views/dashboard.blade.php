@@ -6,7 +6,7 @@
     </x-slot>
 
     <div class="py-12">
-        @include('dashboardComponents.thisWeekBirthsday')
+        @include('dashboardComponents.thisWeekBirthday')
         @include('dashboardComponents.lastPurchasers')
     </div>
 </x-app-layout>

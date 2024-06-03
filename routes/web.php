@@ -9,8 +9,8 @@ use App\Http\Controllers\DashboardController;
 Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::get('users', [UserController::class, 'index'])->name('users.index');
-Route::get('users-birthsday', [UserController::class, 'indexBirthsday'])->name('users.birthsday');
-Route::get('users-this-week-birthsday', [UserController::class, 'thisWeekBirthsday'])->name('users.thisWeekBirthsday');
+Route::get('users-birthday', [UserController::class, 'indexBirthday'])->name('users.birthday');
+Route::get('users-this-week-birthday', [UserController::class, 'thisWeekBirthday'])->name('users.thisWeekBirthday');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

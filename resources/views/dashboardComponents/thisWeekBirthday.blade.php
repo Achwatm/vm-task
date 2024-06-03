@@ -12,7 +12,7 @@
             </tr>
         </thead>
         <tbody>
-                @foreach ($thisWeekBirthsday as $bUser )
+                @foreach ($thisWeekBirthday as $bUser )
                     <tr class="px-6 py-3 bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                         <td  class="px-6 py-4">
                             {{$bUser->name ?? '-'}}

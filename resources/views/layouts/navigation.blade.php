@@ -18,11 +18,11 @@
                     <x-nav-link :href="route('users.index')" :active="request()->routeIs('users.index')">
                         {{ __('Users') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('users.birthsday')" :active="request()->routeIs('users.birthsday')">
-                        {{ __('Users by birthsday') }}
+                    <x-nav-link :href="route('users.birthday')" :active="request()->routeIs('users.birthday')">
+                        {{ __('Users by birthday') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('users.thisWeekBirthsday')" :active="request()->routeIs('users.thisWeekBirthsday')">
-                        {{ __('This Week birthsday') }}
+                    <x-nav-link :href="route('users.thisWeekBirthday')" :active="request()->routeIs('users.thisWeekBirthday')">
+                        {{ __('This Week birthday') }}
                     </x-nav-link>
                 </div>
             </div>
